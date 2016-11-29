@@ -5,6 +5,9 @@ PREFIX = $(abspath ./prefix)
 
 all: expat graphviz viz.js
 
+docker:
+	docker-compose run --rm dev make
+
 clean:
 	rm -f module.js viz.js
 

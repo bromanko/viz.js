@@ -75,6 +75,12 @@ To build from source, you will need to [install the Emscripten SDK](http://kripk
 To download the sources and build everything:
 
     make
+    
+### Build via Docker
+
+To build from source in a Docker container:
+
+    make docker
 
 ## Donate
 

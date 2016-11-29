@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  dev:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ".:/src"
